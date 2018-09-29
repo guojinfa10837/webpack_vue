@@ -18,6 +18,9 @@ var config = {
         },{
             test: /\.css$/,
             use:['style-loader','css-loader']
+        },{
+            test: /\.jsx$/,
+            loader:'babel-loader'
         },{//css预处理
             test: /\.styl$/,
             use:['style-loader','css-loader','stylus-loader']

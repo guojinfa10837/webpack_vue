@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import App from './app.vue';
+import './assets/css/global.styl'
 import './assets/css/style.css';
 import './assets/css/style.styl'
 import './assets/images/logo.png';
