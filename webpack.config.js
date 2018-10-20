@@ -1,7 +1,7 @@
 var path = require("path");
 const HTMLPlugin = require("html-webpack-plugin");
 const webpack = require("webpack");
-11
+
 const isDev = process.env.NODE_ENV == 'development';
 
 var config = {
